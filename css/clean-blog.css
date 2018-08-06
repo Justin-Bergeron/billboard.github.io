@@ -1,23 +1,40 @@
 body {
   font-size: 20px;
   color: #212529;
-  font-family: 'Lora', 'Times New Roman', serif;
+  /* font-family: 'Lora', 'Times New Roman', serif; */
+  font: 18px/26px "Mercury SSm A", "Mercury SSm B";
 }
 
 p {
   line-height: 1.5;
   margin: 30px 0;
+  text-align: right;
 }
 
 p a {
   text-decoration: underline;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+}
+
+h5 {
+  text-align: center;
+}
+
 h6 {
   font-weight: 800;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -275,22 +292,27 @@ header.masthead .post-heading .meta a {
 
 .post-preview > a {
   color: #212529;
+  text-align: justify;
+
 }
 
 .post-preview > a:focus, .post-preview > a:hover {
   text-decoration: none;
   color: #0085A1;
+  text-align: justify;
 }
 
 .post-preview > a > .post-title {
   font-size: 30px;
   margin-top: 30px;
   margin-bottom: 10px;
+  text-align: justify;
 }
 
 .post-preview > a > .post-subtitle {
   font-weight: 300;
   margin: 0 0 10px;
+  text-align: justify;
 }
 
 .post-preview > .post-meta {
@@ -298,16 +320,19 @@ header.masthead .post-heading .meta a {
   font-style: italic;
   margin-top: 0;
   color: #868e96;
+  text-align: justify;
 }
 
 .post-preview > .post-meta > a {
   text-decoration: none;
   color: #212529;
+  text-align: justify;
 }
 
 .post-preview > .post-meta > a:focus, .post-preview > .post-meta > a:hover {
   text-decoration: underline;
   color: #0085A1;
+  text-align: justify;
 }
 
 @media only screen and (min-width: 768px) {
